@@ -17,10 +17,10 @@ jobs:
     - name: Create local changes
       run: |
         rm -r static/docs
-        unzip 80191-Paligo_Dev_Docs-html5_-Dev_Portal_Production_Run.zip
+        unzip 38960-Coveo_Test-html5_-Github_Coveo.zip
         rm *.zip
-        mv 80191-Paligo_Dev_Docs-html5/out static/docs
-        rm -r 80191-Paligo_Dev_Docs-html5
+        mv 38960-Coveo_Test-html5/out static/docs
+        rm -r 38960-Coveo_Test-html5
     - name: Commit files
       run: |
         git config --local user.email "github-actions@users.noreply.github.com"
