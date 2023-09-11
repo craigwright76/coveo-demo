@@ -1,0 +1,16 @@
+### Hugp
+.hugo_build.lock
+/public/
+/resources/_gen/
+
+### macOS
+.DS_Store
+
+### node.js
+node_modules
+
+### TinaCMS
+/tina/__generated__/
+
+### yarn
+yarn.lock
