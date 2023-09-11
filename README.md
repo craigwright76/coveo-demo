@@ -1,3 +1,5 @@
+warm-cactus-9f62e6
+
 # Universal Theme for Hugo
 
 [![Code Climate](https://codeclimate.com/github/devcows/hugo-universal-theme/badges/gpa.svg)](https://codeclimate.com/github/devcows/hugo-universal-theme)
