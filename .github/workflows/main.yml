@@ -1,0 +1,31 @@
+name: Extract docs from zip file
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+    - '**.zip'
+  workflow_dispatch:
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create local changes
+      run: |
+        rm -r static/docs
+        unzip 80191-Paligo_Dev_Docs-html5_-Dev_Portal_Production_Run.zip
+        rm *.zip
+        mv 80191-Paligo_Dev_Docs-html5/out static/docs
+        rm -r 80191-Paligo_Dev_Docs-html5
+    - name: Commit files
+      run: |
+        git config --local user.email "github-actions@users.noreply.github.com"
+        git config --local user.name "github-actions"
+        git add .
+        git commit -a -m "Add changes"
+    - name: Push changes
+      run: git push origin main
