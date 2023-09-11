@@ -2,7 +2,7 @@ name: Extract docs from zip file
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
     - '**.zip'
   workflow_dispatch:
@@ -28,4 +28,4 @@ jobs:
         git add .
         git commit -a -m "Add changes"
     - name: Push changes
-      run: git push origin main
+      run: git push origin master
