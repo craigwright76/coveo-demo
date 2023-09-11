@@ -1,0 +1,59 @@
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] ############################################################
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] # Output Factory initiated (html5)
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] # Building output for: Coveo Test
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] # URL /document/edit/38960
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] # User: Craig Wright
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] # Time: Mon, 11 Sep 2023 16:15:31 +0100
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] # Server: munich
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] ############################################################
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Group: custom
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Type: html5
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Transformation: $user_dir/xsl/custom/layout-2638.xsl
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] File found: $user_dir/xsl/custom/layout-2638.xsl
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] ############################################################
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Building output for: html5
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Using stylesheet: $user_dir/xsl/custom/layout-2638.xsl
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Parameters for this build: []
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Environment variables for this build: []
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Building output for languages: Array
+(
+    [0] => en
+)
+
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Building multilang: no
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Building preview: no
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] ############################################################
+[11/Sep/2023 16:15:31 Europe/Dublin] [Info] Using build directory: $local_tmp/production-64ff2f122c1bf5.38016517/38960-Coveo_Test-html5
+[11/Sep/2023 16:15:32 Europe/Dublin] [Info] -- Generating source files
+[11/Sep/2023 16:15:32 Europe/Dublin] [Info] -- Propagating taxonomies: false
+[11/Sep/2023 16:15:32 Europe/Dublin] [Info] -- Source files have been generated
+[11/Sep/2023 16:15:32 Europe/Dublin] [Info] -- Publication has no unresolved dependencies.
+[11/Sep/2023 16:15:32 Europe/Dublin] [Info] -- Generating source files complete.
+[11/Sep/2023 16:15:33 Europe/Dublin] [Info] Localizing: publication-38960.xml
+[11/Sep/2023 16:15:33 Europe/Dublin] [Info] Language: en
+[11/Sep/2023 16:15:34 Europe/Dublin] [Info] Variable sets found: 0
+[11/Sep/2023 16:15:35 Europe/Dublin] [Info] Inserting image links.
+[11/Sep/2023 16:15:35 Europe/Dublin] [Info] Found 0 image(s).
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Profiling parameters: []
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Profiling customisation: $user_dir/xsl/profile.xsl (not found)
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Transformation: publication-38960--en.org.xml -> publication-38960--en.xml [profile.xsl]
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Transformation: publication-38960--en.xml -> publication-38960--en.xml [internal-xref.xsl]
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Created copy: $user_dir/xsl/custom/layout-2638.xsl -> $user_dir/xsl/custom/64ff2f18d27a0.xsl
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.page.xsl -> $user_dir/xsl/custom/64ff2f18d27a0.page.xsl
+[11/Sep/2023 16:15:36 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.index.xsl -> $user_dir/xsl/custom/64ff2f18d27a0.index.xsl
+[11/Sep/2023 16:15:37 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.toc.xsl -> $user_dir/xsl/custom/64ff2f18d27a0.toc.xsl
+[11/Sep/2023 16:15:37 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.page.xsl -> $user_dir/xsl/custom/64ff2f18d27a0.page.xsl
+[11/Sep/2023 16:15:37 Europe/Dublin] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.index.xsl -> $user_dir/xsl/custom/64ff2f18d27a0.index.xsl
+[11-Sep-2023 16:15:37 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*
+[11-Sep-2023 16:15:37 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
+[11-Sep-2023 16:15:37 Europe/Dublin] Copy file '$apppath/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '$local_tmp/production-64ff2f122c1bf5.38016517/38960-Coveo_Test-html5/out/css/image/corporate-logo.svg'
+[11-Sep-2023 16:15:37 Europe/Dublin] Copy file '$apppath/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '$local_tmp/production-64ff2f122c1bf5.38016517/38960-Coveo_Test-html5/out/css/image/portal-logo.svg'
+[11-Sep-2023 16:15:38 Europe/Dublin] Post build HTML5
+[11/Sep/2023 16:15:38 Europe/Dublin] [Info] Transformation: index-en.html -> toc-en.html [64ff2f18d27a0.toc.xsl]
+[11/Sep/2023 16:15:39 Europe/Dublin] [Info] Transformation: index-en.html -> index-en.html [64ff2f18d27a0.page.xsl]
+[11/Sep/2023 16:15:39 Europe/Dublin] [Info] Generating index page.
+[11/Sep/2023 16:15:39 Europe/Dublin] [Info] Transformation: index.manifest -> index.html [64ff2f18d27a0.index.xsl]
+[11/Sep/2023 16:15:40 Europe/Dublin] [Info] # Took 8.600043 seconds to render.
