@@ -1,4 +1,4 @@
-baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "https://warm-cactus-9f62e6.netlify.app/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "Universal"
 theme = "hugo-universal-theme"
 themesDir = "themes"
@@ -27,6 +27,12 @@ pluralizelisttitles = false
     name       = "Home"
     identifier = "menu.home"
     url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Docs"
+    identifier = "menu.docs"
+    url        = "/docs"
     weight     = 1
 
 [[menu.main]]
